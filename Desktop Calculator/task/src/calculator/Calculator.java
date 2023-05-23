@@ -16,6 +16,9 @@ public class Calculator extends JFrame {
 
     public Calculator() {
         super("Calculator");
+        setSize(400, 400);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setLayout(new BorderLayout(20, 20));
         setSize(350, 510);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setBackground(Color.LIGHT_GRAY);
